@@ -1,0 +1,23 @@
+PackageIdentifier: Kensington.Works
+PackageVersion: 2.1.8
+PackageName: KensingtonWorks
+Publisher: Kensington
+License: Proprietary
+Moniker: kensingtonworks
+Tags:
+- mouse
+- trackball
+PackageUrl: https://www.kensington.com/ja-jp/software/kensingtonworks/
+Scope: machine
+Installers:
+- Platform:
+  - Windows.Desktop
+  Architecture: x86
+  InstallerUrl: https://www.kensington.com/siteassets/software-support/kensingtonworks/new-kensingtonworks-download/kensingtonworks_2.3.1_1632814638.msi
+  InstallerSha256: 9c0ff8eaa0b141b2d73aee91842cc3b97b27715578a342eafaa24eea4420a12e
+  InstallerType: msi 
+  UpgradeBehavior: install
+ShortDescription: Kensington Works a app which is utility for Kensington mouses and trackballs
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0

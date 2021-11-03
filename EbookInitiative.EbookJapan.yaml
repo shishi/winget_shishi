@@ -1,0 +1,23 @@
+PackageIdentifier: EbookInitiative.EbookJapan
+PackageVersion: 1.0.7.0
+PackageName: EbookJapan
+Publisher: EbookInitiative
+License: Proprietary
+Moniker: ebookjapan
+Tags:
+- book
+- reader
+PackageUrl: https://ebookjapan.yahoo.co.jp/app/windows/index.html
+Scope: machine
+Installers:
+- Platform:
+  - Windows.Desktop
+  Architecture: x86
+  InstallerUrl: https://prod-contents-inst.akamaized.net/reader/windows/ebookjapan_setup.exe?kvnW7GAt&ext=.exe
+  InstallerSha256: f1f0eb1a178fae24a5bc619b3db6b432f03638553d07613c83c594515bc47bfc
+  InstallerType: inno
+  UpgradeBehavior: install
+ShortDescription: EbookJapan is a book reader for ebookjapan
+PackageLocale: ja-JP
+ManifestType: singleton
+ManifestVersion: 1.0.0

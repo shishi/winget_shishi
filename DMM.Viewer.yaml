@@ -1,0 +1,34 @@
+PackageIdentifier: DMM.Viewer
+PackageVersion: 3.1.13
+PackageName: DMMViewer
+Publisher: DMM.com,Inc.
+License: Proprietary
+Moniker: dmmviewer
+Tags:
+- book
+PackageUrl: https://book.dmm.com/info_bookviewer.html
+Scope: machine
+Installers:
+- Platform:
+  - Windows.Desktop
+- Architecture: x64
+  InstallerUrl: https://dl.book.dmm.com/download/win64/DMMViewerSetup_x64.exe
+  InstallerSha256: 960ccea42a909e0e40a682c21d5421c1699b743d2a6a01b7c11e13f34e6a321f
+  InstallerType: inno
+  UpgradeBehavior: install
+  InstallerSwitches:
+    Silent:  /S
+    SilentWithProgress: /S
+- Architecture: x86
+  InstallerUrl: https://dl.book.dmm.com/download/win32/DMMViewerSetup_x86.exe
+  InstallerSha256: 0fdd5449b56e24fbb9cead7a3009bf10771d760839d69afdfd5c5660ba5f7f7c
+  InstallerType: inno
+  UpgradeBehavior: install
+  InstallerSwitches:
+    Silent: /S
+    SilentWithProgress: /S 
+ShortDescription: DMM Viewer is an app which read books buy through DMM.com or FANZA
+PackageLocale: ja-JP
+ManifestType: singleton
+ManifestVersion: 1.0.0
+
