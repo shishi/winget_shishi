@@ -1,0 +1,22 @@
+PackageIdentifier: VirtualDesktop.Streamer 
+PackageVersion: 2.3.2
+PackageName: Streamer
+Publisher: virtualDesktop
+License: Proprietary
+Moniker: virtualdesktopstreamer
+Tags:
+- vr
+PackageUrl: https://www.vrdesktop.net
+Scope: machine
+Installers:
+- Platform:
+  - Windows.Desktop
+  Architecture: x86
+  InstallerUrl: https://download.vrdesktop.net/files/VirtualDesktop.Streamer.Setup.exe
+  InstallerSha256: 75b01e61cedbd0ae98b90582d90f3aaf3c9d56eb80fc03eca7bf4dbafc6fc3d8
+  InstallerType: exe
+  UpgradeBehavior: install
+ShortDescription: VirtualDesktop Streaming server
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
